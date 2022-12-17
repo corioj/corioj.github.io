@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>John Corio</title>
+
+  <!-- favicon, make this animated later? -->
+  <link rel="icon" href="favicon.ico">
+  
+  <!-- Google Fonts, EDIT THIS LATER -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+  <div class="container-fluid"> 
+    <h2>John Corio</h2>
+    <p>
+      <a href="aboutme.html">About</a>
+      <span> / </span>
+
+      <a href="index.html">Home</a>
+      <span> / </span>
+
+      <a href="resume.html">Resume</a>
+    </p>
+  </div>
+
+
+  <div class="container-fluid">
+    <section>
+
+      <h3 class="project-heading">Machine Learning</h3>
+      <ul class="project-item">
+        <li>
+          <p class="project-link"><a href="https://github.com/corioj/AlbumArtMaker">Album Art Generation</a></p>
+        </li>
+        <p class="project-description">
+          Fed album covers into various self-built generative adversial network architectures (GANs) in order to generate genre-representative artwork.
+        </p>
+        <p class="project-description">
+          Developed in Python utilizing the PyTorch, Pillow, Matplotlib & OpenCV libraries in a Google Colab environment in collaboration with another student.
+        </p>
+        <img src="albumproject/discriminator1.jpg">
+        <img src="albumproject/generator1.jpg">
+        <hr></hr>
+
+        <li>
+          <p class="project-link"><a href="https://github.com/corioj/ClothingIdentifierCNN">Clothing Identifier</a></p>
+        </li>
+        <p class="project-description">
+          Loaded and preprocessed a set of clothing images, and then designed, constructed and tuned convolutional neural network architectures (vanilla CNNs versus an autoencoder classifier) to identify the particular type of clothing. 
+        </p>
+        <p class="project-description">
+          Developed in Python utilizing the PyTorch, Pillow, & Matplotlib in Jupyter Notebooks.
+        </p>
+        <img src="clothingproject/autoencoder1.jpg">
+        <hr></hr>
+
+        <li>
+          <p class="project-link"><a href="https://github.com/corioj/YelpReviewsSVM">Sentiment Classifier</a></p>
+        </li>
+        <p class="project-description">
+          Iteratively engineered a natural language dataset made up of Yelp reviews, developed an automated framework for training, optimizing, and evaluating support vector machines (SVM) models, and then reviewed validation set accuracy results.
+        </p>
+        <p class="project-description">
+          Developed in Python utilizing the SKLearn, NLTK, Matplotlib, & Pandas libraries in Jupyter Notebooks.
+        </p>
+        <img src="yelpproject/yelp1.jpg">
+      </ul>
+
+    </section>
+
+    <section>
+      <h3 class="project-heading">Software Projects</h3>
+      <ul class="project-item">
+        <li>
+          <p class="project-link"><a href="https://github.com/corioj/pokemonTSP">Traveling Salesperson Problem</a></p>
+        </li>
+        <p class="project-description">
+          Solved a terrain-based, coordinate-on-map version of the Traveling Salesperson Problem, coding both optimal & optimized solutions with branch & bound algorithm, Prim's algorithm, and minimum spanning trees.
+        </p>
+        <p class="project-description">
+          Developed in C++ utilizing only the STL library.
+        </p>
+        <img src="tspproject/map.jpg">
+        <img src="tspproject/optmap.jpg">
+        <hr></hr>
+
+        <li>
+          <p class="project-link"><a href="https://github.com/corioj/treasurehunt">Treasure Hunt</a></p>
+        </li>
+        <p class="project-description">
+          Read in a text map of different terrain types from the command line and utilized the deque data structure to hunt for treasure using depth-first search and breadth-first search.
+        </p>
+        <p class="project-description">
+          Developed in C++ utilizing only the STL library.
+        </p>
+        <img src="treasureproject/appAmap.jpg">
+        <img src="treasureproject/appAmapsol1.jpg">
+        <hr></hr>
+
+      </ul>
+    </section>
+
+  </div>
+
+  <div class="container-fluid">
+    <a href="https://www.linkedin.com/in/john-corio-63b128196">LinkedIn</a>
+    <a href="https://github.com/corioj">GitHub</a>
+    <p class="copyright">© John Corio - 2022</p>
+  </div>
+
+</body>
