@@ -98,6 +98,14 @@ a:hover {
   margin-left: 1em;
 }
 
+#gamefield {
+	position: fixed;
+	top: 40px;
+	z-index: -2;
+	padding-left: 10%;
+	margin: 2% 0 2% 0;
+}
+
 /* animation */
 .css-selector {
     background: linear-gradient(37deg, #181818, #210f83, #35005a, #FFFFFF);
