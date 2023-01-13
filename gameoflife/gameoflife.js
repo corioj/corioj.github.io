@@ -126,24 +126,29 @@ class gameoflife {
 	}
 }
 
+function run(obj) {
+	obj.run();
+}
 
 const game = new gameoflife();
 game.start();
 let pause = true;
+let interval;
 const click = document.querySelector('#gameoflife').addEventListener("click", () => {
 	if (pause) {
 		pause = false;
 		game.randomFill();
 		game.fillColor();
-		window.setInterval(() => {
+		interval = window.setInterval(() => {
 			game.run();
 
-		}, 50)
+		}, 50);
 		document.querySelector('#gameoflife').innerHTML = "Click to stop";
 	}
 	else {
 		game.start();
 		pause = true;
+		window.clearInterval(interval);
 		document.querySelector('#gameoflife').innerHTML = "Click to restart";
 	}
 });
