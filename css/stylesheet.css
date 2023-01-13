@@ -39,6 +39,15 @@ a:hover {
 	color: #C3B1E1;
 }
 
+/* id selectors */
+#gamefield {
+	position: fixed;
+	top: 40px;
+	z-index: -2;
+	padding-left: 10%;
+	margin: 2.1% 0 2.1% 0;
+}
+
 /* class selectors */
 .container-fluid {
 	padding-left: 10%;
@@ -96,14 +105,6 @@ a:hover {
 .left {
   text-align: left;
   margin-left: 1em;
-}
-
-#gamefield {
-	position: fixed;
-	top: 40px;
-	z-index: -2;
-	padding-left: 10%;
-	margin: 2.1% 0 2.1% 0;
 }
 
 /* animation */
