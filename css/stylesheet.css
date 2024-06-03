@@ -85,6 +85,10 @@ a:hover {
 	color: #8F00FF;
 }
 
+.project-list {
+	list-style-type: circle;
+}
+
 .aboutme-description {
 	margin-right: 20%;
 }
