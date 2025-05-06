@@ -9,5 +9,5 @@ function download(url) {
 
 const downloadZone = document.getElementsByClassName("download-resume");
 downloadZone[0].addEventListener("click", function() {
-	download("resumeJS/JCorio_GDev_CV.pdf")
+	download("resumeJS/Corio_DS_CV.pdf")
 });
